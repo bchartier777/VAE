@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "console": "integratedTerminal",
+            "program": "${file}",
+            "justMyCode": true,
+            "args": [
+                "--x_size", "784", 
+                "--h_dim", "400",
+                "--latent_dim", "20",
+                "--user_epochs", "3",
+                "--lr", "1e-3",
+                "--batch_size", "100",
+                "--weight_decay", "1e-5",
+                "--lowest_val_loss", "1e10",
+                "--val_imgs", "36",
+                "--val_subset", "10000",
+                "--data_folder", "./data",
+                "--val_output",
+                "--grey_scale",
+                "--seed", "3435"] },
+        {
+          "justMyCode": true
+        }
+    ]
+}
