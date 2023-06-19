@@ -9,10 +9,11 @@ The primary purpose of this implementation is to evaluate:
     - Both loss functions use the reconstruction loss.
     - Source changes are required to enable BCE: The methods are calc_loss_KLD and calc_loss_BCE
  - Train using no image transform and two different grayscale transforms
- - Average episodic return for a limited number of seeds and hyperparameters
+
+Source changes are required to enable each option.
 
 The following are not implemented:
- - Eval model
+ - Eval mode
  - Checkpoint model archive and retrieval
 
 ## Input dataset
